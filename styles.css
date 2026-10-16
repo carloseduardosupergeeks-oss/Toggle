@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+
+    background-image: url(house.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.container {
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+button{
+border-radius: 10px;
+border: none;
+background-color: white;
+color: black;
+height: 50px;
+width: 50px;
+font-size: 25px;
+text-align: center;
+}
+
+.imagem {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    background-image: url(shrekbonito.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.escuro {
+    background-image: url(shrekpica.jpg);
+}
